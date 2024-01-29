@@ -33,7 +33,7 @@ nav>ul li {
 }
 
 .mohi>span {
-    color: rgb(122, 161, 4);
+    color: rgb(179, 218, 6);
 }
 
 .btn {
@@ -92,6 +92,15 @@ nav>ul li {
     font-size: 30px;
     padding: 5px;
     color: black;
+}
+.contact{
+    font-size: 30px;
+    padding: 5px;
+    margin-left: 20px;
+    border: 2px solid rgb(243, 120, 5);
+    background-color: whitesmoke;
+    color: rgb(243, 120, 5) ;
+    border-radius: 4spx;
 }
 
 /* About Me */
@@ -271,6 +280,19 @@ input, textarea{
     padding-right: 320px;
 }
 .submit{
-   width: 100px;
-   padding: 5px;
+    font-size: 16px;
+    padding: 5px;
+    width: 40%;
+    border-radius: 4px;
+    background-color: rgb(231, 12, 12);
+    color: whitesmoke;
+  
+}
+.icon{
+    padding-top: 20px;
+}
+.fa-brands{
+    padding-left: 15px;
+    color: crimson;
+    font-size: 25px;
 }
