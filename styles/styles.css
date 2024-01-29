@@ -151,7 +151,7 @@ td {
     margin-left: 140px;
     margin-right: 140px;
     margin-top: 100px;
-    margin-bottom: 130px;
+    margin-bottom: 170px;
 }
 
 .box>div {
@@ -182,4 +182,95 @@ td {
     border-radius: 3px;
     color: rgb(26, 25, 25);
     font-size: 18px;
+}
+
+/* summary */
+
+.my-resume{
+    text-align: center;
+    margin-bottom: 130px;
+}
+.summary{
+   margin-left: 140px;
+    margin-right: 140px;
+    display: flex;
+}
+.a{
+    font-size: 45px;
+    font-weight: 600;
+    padding-bottom: 113px;
+
+}
+
+
+.education{
+    margin-right: 10px;
+    border: 2px solid rgb(218, 241, 6);
+    padding: 5px;
+}
+.experience{
+    border: 2px solid rgb(218, 241, 6);
+   
+}
+hr{
+    color: rgb(243, 239, 5);
+}
+.my{
+    font-size: 30px;
+    font-weight: 500px;
+    padding-bottom: 30px;
+    
+    
+}
+    
+.title{
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(176, 238, 5);
+    
+}
+.summary-para{
+    font-size: 19px;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+.summary-btn > .CV{
+     margin-top: 50px;
+ 
+}
+
+/* footer */
+footer{
+    background-color: rgb(178, 209, 120);
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 130px;
+}
+.connect{
+    padding-top: 130px;
+    padding-left: 230px;
+}
+.message{
+    padding-top: 130px;
+    padding-right: 300px;
+}
+.footer-title{
+    padding-bottom: 25px;
+    font-size: 40px;
+    font-weight: 600;
+}
+input, textarea{
+   margin-bottom: 24px;
+   width:100%;
+   padding: 20px;
+   
+}
+.footer-para{
+    padding-right: 320px;
+}
+.submit{
+   width: 100px;
+   padding: 5px;
 }
