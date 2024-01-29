@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0px;
 }
 
-header{
-   
+header {
+
     background-color: rgb(221, 243, 188);
-    margin:0px 20px;
+    margin: 0px 20px;
     background-image: url("../images/developer.png");
     background-repeat: no-repeat;
     background-position: bottom left;
@@ -16,13 +16,13 @@ nav {
     display: flex;
     justify-content: space-around;
     padding-top: 80px;
-   
+
 }
 
 nav>ul li {
     list-style: none;
     display: inline;
-    margin-right:25px;
+    margin-right: 25px;
     font-size: 30px;
     font-weight: 600;
 }
@@ -33,22 +33,24 @@ nav>ul li {
 }
 
 .mohi>span {
-    color:rgb(122, 161, 4);
+    color: rgb(122, 161, 4);
 }
-.btn{
+
+.btn {
     background-color: rgb(12, 10, 10);
     color: whitesmoke;
     border-radius: 5px;
     font-size: 26px;
 }
-.btn:hover{
-    background-color:rgb(132, 194, 8);
+
+.btn:hover {
+    background-color: rgb(132, 194, 8);
     color: black;
 }
 
 /* start */
 
-.start{
+.start {
     display: flex;
     justify-content: space-around;
     margin-top: 130px;
@@ -59,38 +61,42 @@ nav>ul li {
 
 }
 
-.introduction{
-   padding-top: 80px;
-   padding-left: 180px;
+.introduction {
+    padding-top: 80px;
+    padding-left: 180px;
 }
-.hi{
+
+.hi {
     font-size: 50px;
     font-weight: 800;
     margin-bottom: 10px;
-    
+
 }
-.mohian-ahmed{
+
+.mohian-ahmed {
     font-size: 75px;
     font-weight: 900s;
     margin-bottom: 30px;
 }
-.start-para{
+
+.start-para {
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 25px;
 }
-.CV{
+
+.CV {
     background-color: darkgoldenrod;
     border: 0;
     border-radius: 5px;
     font-size: 30px;
     padding: 5px;
-    color:black;
+    color: black;
 }
 
 /* About Me */
 
-.about-me{
+.about-me {
     margin-top: 130px;
     background-color: rgb(231, 245, 151);
     margin-left: 250px;
@@ -98,37 +104,82 @@ nav>ul li {
     text-align: center;
     border-radius: 10px;
 }
-.about-title{
+
+.about-title {
     font-size: 60px;
     font-weight: 600;
     padding-top: 120px;
     padding-bottom: 30px;
 }
-.about-para{
+
+.about-para {
     font-size: 25px;
     font-weight: 400px;
     padding-bottom: 30px;
 }
-.about-table, td{
-   margin: 0 auto;
-   padding-bottom: 110px;
-   font-size: 24px;
-   padding-left: 20px;
-  
+
+.about-table,
+td {
+    margin: 0 auto;
+    padding-bottom: 110px;
+    font-size: 24px;
+    padding-left: 20px;
+
 }
 
 /* what i do */
 
-.what-i-do{
+.what-i-do {
     text-align: center;
     margin-top: 130px;
 }
-.what-title{
+
+.what-title {
     font-size: 60px;
     font-weight: 600;
 }
-.what-para{
+
+.what-para {
     font-size: 25px;
-   padding-left: 130px;
-   padding-right: 130px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+/* box */
+.box {
+    display: flex;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 100px;
+    margin-bottom: 130px;
+}
+
+.box>div {
+    margin-right: 20px;
+    padding: 0 60px;
+    box-shadow: 12px 12px 20px 20px rgb(211, 207, 207);
+    text-align: start;
+    border-radius: 10px;
+
+}
+
+.box>div img {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.box>div h4 {
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: 500;
+
+}
+
+.box>div p {
+   margin-bottom: 30px;
+    background-color: rgb(84, 126, 84);
+    padding: 5px;
+    border-radius: 3px;
+    color: rgb(26, 25, 25);
+    font-size: 18px;
 }
